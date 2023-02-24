@@ -1,3 +1,4 @@
+killall ngrok
 systemctl stop nginx
 git pull origin main
 systemctl start nginx
